@@ -6,3 +6,9 @@ php artisan jetstream:install livewire
 
 
 npm install alpinejs
+
+
+
+php artisan tinker 
+
+App\Models\Product::with('variants')->get();
