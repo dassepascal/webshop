@@ -17,9 +17,6 @@ return new class extends Migration
             $table->string('slug');
             $table->text('description');
             $table->unsignedBigInteger('price');
-            $table->unsignedBigInteger('main_image_id')->nullable();
-
-
             $table->timestamps();
         });
     }
